@@ -1,2 +1,2 @@
 # landing-page
-The Odin Project Hero
+The Odin Project: Landing Page Hero
