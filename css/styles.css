@@ -1,0 +1,294 @@
+/* Landing-Page index.html -> ./css/styles.css */
+
+@font-face {
+  font-family: Roboto;
+  src: url('../fonts/roboto/roboto-regular.woff2') format('woff2'),
+       url('../fonts/roboto/roboto-regular.woff') format('woff');
+}
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     background: Black;
+     font-family: sans-serif;  
+     /*outline: 1px solid red;*/
+ }
+
+a {
+  text-decoration: none;
+}
+
+
+.sec-one {
+  background: #1F2937;
+  font-family: Roboto, sans-serif;
+  max-width: 1200px;
+  margin: auto;
+}
+
+    .head {
+      background: #1F2937;
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 10px;
+      justify-content: space-between;
+      align-items: center;
+      padding: 4px 0px 4px 0px;
+    }
+    
+        .head-logo {
+          background: #1F2937;
+          position: relative;
+          left: 34px;
+        }
+        
+            .head-logo img {
+              background: #1F2937;
+              width: 120px;
+              height: 46px;
+            }
+        
+        .head-link {
+          background: #1F2937;
+          position: relative;
+          right: 34px;
+        }
+        
+            .head-link a{
+              background: #1F2937;
+              font-size: 18px;
+              color: #E5E7EB;
+              margin: 0px 10px 0px 10px;
+            }
+    
+    .hero {
+      background: #1F2937;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+    
+        .hero-text {
+          background: #1F2937;
+          max-width: 460px;
+          min-width: 460px;
+          padding: 40px 10px 10px 0px;
+        }
+        
+            .hero-text h1 {
+              background: #1F2937;
+              color: #F9FAF8;
+              font-size: 48px;
+              font-weight: 900;
+            }
+            
+            .hero-text p {
+              background: #1F2937;
+              font-size: 18px;
+              color: #E5E7EB;
+              padding-bottom: 10px;
+            }
+        
+            .button1 {
+              background: #3882F6;
+              padding: 10px 36px 10px 36px;
+              border-radius: 8px;
+             }
+            
+            .button1 a {
+              background: #3882F6;
+              color: #E5E7EB;
+            }
+            
+            .button1:hover, .button1:hover a {
+              background-color: #73A7F8;
+            }
+        
+        .hero-img {
+          background: #1F2937;
+          padding: 30px 10px 10px 10px;
+        }
+        
+            .hero-img img {
+              background: #1F2937;
+              width: 500px;
+              height: 240px;
+            }
+
+
+.sec-two {
+  background: #F9FAF8;
+  max-width: 1200px;
+  margin: auto;
+}
+
+    .info-two {
+      background: #F9FAF8;
+      display: flex;
+      justify-content: center;
+      background: #F9FAF8;
+      padding: 0;
+    }
+    
+        .text-two {
+          background: #F9FAF8;
+          color: #1F2937;
+          font-size: 36px;
+          font-weight: 900;
+          padding: 30px;
+        }
+        
+    .grid-two {
+      background: #F9FAF8;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+        
+        .grid-two div{
+          background: #F9FAF8;
+          align-items: center;
+          text-align: center;
+          padding: 8px 8px 80px 8px;
+        }
+        
+        .grid-two img{
+          background: #F9FAF8;
+          width: 180px;
+          height: 160px;
+          border-style: solid;
+          border-width: 5px;
+          border-color: #3882F6;
+          border-radius: 8px;
+        }
+        
+        .p1 {
+          background: #F9FAF8;
+          color: #1F2937;
+          text-align: left;
+          padding-left: 12px; 
+        }
+        
+        .p2 {
+          background: #F9FAF8;
+          color: #1F2937;
+          text-align: left;
+          padding-left: 12px;
+        }
+        
+        .p3 {
+          background: #F9FAF8;
+          color: #1F2937;
+          text-align: center;
+        }
+
+
+.sec-three {
+  background: #E5E7EB;
+  max-width: 1200px;
+  padding: 80px 190px 80px 190px;
+  margin: auto;
+}
+
+    .quote p {
+      background: #E5E7EB;
+      color: #1F2937;
+      font-size: 36px;
+      font-weight: lighter;
+      font-style: italic;
+    }
+    
+    .author p {
+      background: #E5E7EB;
+      color: #1F2937;
+      font-weight: 800;
+      text-align: right;
+      padding-right: 30px;
+    }
+
+
+.sec-four {
+  background: #F9FAF8;
+  max-width: 1200px;
+  margin: auto;
+}
+
+    .cont1-four {
+      background: #F9FAF8;
+      justify-self: center;
+      align-items: center;
+      padding: 40px 30px 40px 30px;
+    }
+    
+        .cont2-four {
+          background: #3882F6;
+          display: flex;
+          justify-self: center;
+          align-items: center;
+          padding: 40px 70px 40px 70px;
+          border-radius: 8px;
+        }
+        
+            .text-four {
+              background: #3882F6;
+              padding-right: 230px;
+              color: #F9FAF8;
+            }
+            
+                .p4 {
+                  background: #3882F6;
+                  font-size: 20px;
+                  font-weight: bold;
+                  margin-bottom: 4px;
+                }
+                
+                .p5 {
+                  background: #3882F6;
+                  font-weight: lighter;
+                }
+        
+            .button-four {
+              background: #3882F6;
+              padding: 6px 0px 4px 0px;
+            }
+        
+               .button2 {
+                 background: #3882F6;
+                 padding: 8px 34px 8px 34px;
+                 border-style: solid;
+                 border-width: 3px;
+                 border-color: #F9FAF8;
+                 border-radius: 8px;
+               }
+               
+               
+               .button2 a {
+                 background: #3882F6;
+                 color: #E5E7EB;
+               }
+               
+               .button2:hover, .button2:hover a {
+                 background-color: #73A7F8;
+               }
+
+
+.footer {
+  background: #1F2937;
+  max-width: 1200px;
+  margin: auto;
+}
+
+    .foot-text{
+      background: #1F2937;
+      display: flex;
+      color: #F9FAF8;
+      justify-self: center;
+      padding: 10px;
+    }
+    
+        .p6 {
+          background: #1F2937;
+        }  
+

@@ -1,3 +1,2 @@
 # landing-page header
-File: README.md
-The Odin Project: Landing Page Hero
+Landing Page Project Exercise from The Odin Project: HTML and CSS Foundations.
