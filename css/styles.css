@@ -6,289 +6,237 @@
        url('../fonts/roboto/roboto-regular.woff') format('woff');
 }
 
- * {
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
-     background: Black;
-     font-family: sans-serif;  
-     outline: 1px solid red;
- }
+* {
+  box-sizing: border-box;
+  background: Black;
+  font-family: sans-serif;  
+  /*outline: 1px solid red;*/
+}
 
 a {
   text-decoration: none;
 }
 
-
 .sec-one {
   background: #1F2937;
-  font-family: Roboto, sans-serif;
+  color: #F9FAF8;
   max-width: 1200px;
   margin: auto;
+  font-family: Roboto, sans-serif;
 }
-
-    .head {
+  .container-one {
+    background: #1F2937;
+    max-width: 1000px;
+    margin: auto;
+    height: 140px;
+    justify-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 40px 0px;
+  }
+    .grid-img div {
+      background: #1F2937;
+    }      
+    .grid-img div img {
+      background: #1F2937;
+      height: 80px;
+      width: 260px;
+      margin-bottom: -2px;
+    }
+    .grid-link {
       background: #1F2937;
       display: flex;
       flex-wrap: wrap;
-      column-gap: 10px;
-      justify-content: space-between;
-      align-items: center;
-      padding: 4px 0px 4px 0px;
     }
-    
-        .head-logo {
+      .grid-link div {
+        background: #1F2937;
+        padding: 0px 0px 0px 20px;
+        margin-bottom: 1px;
+      }
+        .grid-link div a {
           background: #1F2937;
-          position: relative;
-          left: 34px;
+          color: #F9FAF8;
+          padding: 0px 14px 0px 14px;
         }
-        
-            .head-logo img {
-              background: #1F2937;
-              width: 120px;
-              height: 46px;
-            }
-        
-        .head-link {
-          background: #1F2937;
-          position: relative;
-          right: 34px;
+        .grid-link div:hover a {
+          background-color: #73A7F8;
         }
-        
-            .head-link a{
-              background: #1F2937;
-              font-size: 18px;
-              color: #E5E7EB;
-              margin: 0px 10px 0px 10px;
-            }
-    
-    .hero {
+  .hero {
+    background: #1F2937;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    align-items: center;
+  }
+    .hero-text {
       background: #1F2937;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
+      max-width: 480px;
+      min-width: 400px;
+      padding: 20px 20px 10px 0px;
     }
-    
-        .hero-text {
-          background: #1F2937;
-          max-width: 460px;
-          min-width: 460px;
-          padding: 40px 10px 10px 0px;
-        }
-        
-            .hero-text h1 {
-              background: #1F2937;
-              color: #F9FAF8;
-              font-size: 48px;
-              font-weight: 900;
-            }
-            
-            .hero-text p {
-              background: #1F2937;
-              font-size: 18px;
-              color: #E5E7EB;
-              padding-bottom: 10px;
-            }
-        
-            .button1 {
-              background: #3882F6;
-              padding: 10px 36px 10px 36px;
-              border-radius: 8px;
-             }
-            
-            .button1 a {
-              background: #3882F6;
-              color: #E5E7EB;
-            }
-            
-            .button1:hover, .button1:hover a {
-              background-color: #73A7F8;
-            }
-        
-        .hero-img {
-          background: #1F2937;
-          padding: 30px 10px 10px 10px;
-        }
-        
-            .hero-img img {
-              background: #1F2937;
-              width: 500px;
-              height: 240px;
-            }
-
-
+      .hero-text h1 {
+        background: #1F2937;
+        color: #F9FAF8;
+        font-size: 48px;
+        font-weight: 900;
+      }
+      .hero-text p {
+        background: #1F2937;
+        font-size: 18px;
+        color: #E5E7EB;
+        padding-bottom: 10px;
+      }
+        .hero-text .button {
+          background: #3882F6;
+          padding: 6px 3px 10px 3px;
+          border-radius: 8px;
+         }
+          .hero-text .button a {
+            background: #3882F6;
+            color: #E5E7EB;
+            padding: 4px 30px 9px 30px;
+          }
+          .hero-text .button:hover, .hero-text .button:hover a {
+            background-color: #73A7F8;
+          }
+    .hero-img {
+      background: #1F2937;
+      padding: 30px 0px 4px 20px;
+    }
+      .hero-img img {
+        background: #1F2937;
+        width: 500px;
+        height: 280px;
+      }
 .sec-two {
   background: #F9FAF8;
   max-width: 1200px;
   margin: auto;
 }
-
-    .info-two {
+  .info-two {
+    background: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    /*padding: 0;*/
+  }
+    .text-two {
       background: #F9FAF8;
-      display: flex;
-      justify-content: center;
-      background: #F9FAF8;
-      padding: 0;
+      color: #1F2937;
+      font-size: 36px;
+      font-weight: 900;
+      padding: 30px;
     }
-    
-        .text-two {
-          background: #F9FAF8;
-          color: #1F2937;
-          font-size: 36px;
-          font-weight: 900;
-          padding: 30px;
-        }
-        
-    .grid-two {
+  .container-two {
+    background: #F9FAF8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+    .container-two div{
       background: #F9FAF8;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 8px 8px 80px 8px;
     }
-        
-        .grid-two div{
-          background: #F9FAF8;
-          align-items: center;
-          text-align: center;
-          padding: 8px 8px 80px 8px;
-        }
-        
-        .grid-two img{
-          background: #F9FAF8;
-          width: 180px;
-          height: 160px;
-          border-style: solid;
-          border-width: 5px;
-          border-color: #3882F6;
-          border-radius: 8px;
-        }
-        
-        .p1 {
-          background: #F9FAF8;
-          color: #1F2937;
-          text-align: left;
-          padding-left: 12px; 
-        }
-        
-        .p2 {
-          background: #F9FAF8;
-          color: #1F2937;
-          text-align: left;
-          padding-left: 12px;
-        }
-        
-        .p3 {
-          background: #F9FAF8;
-          color: #1F2937;
-          text-align: center;
-        }
-
-
+       .container-two div img{
+        background: #F9FAF8;
+        width: 170px;
+        height: 160px;
+        border-style: solid;
+        border-width: 5px;
+        border-color: #3882F6;
+        border-radius: 8px;
+      }
+      .container-two div .p1 {
+        background: #F9FAF8;
+        color: #1F2937;
+        text-align: left;
+        padding-left: 15px;
+        margin-bottom: -15px;
+      }
+      .container-two div .p2 {
+        background: #F9FAF8;
+        color: #1F2937;
+        text-align: center;
+      }
 .sec-three {
   background: #E5E7EB;
   max-width: 1200px;
   padding: 80px 190px 80px 190px;
   margin: auto;
 }
-
-    .quote p {
-      background: #E5E7EB;
-      color: #1F2937;
-      font-size: 36px;
-      font-weight: lighter;
-      font-style: italic;
-    }
-    
-    .author p {
-      background: #E5E7EB;
-      color: #1F2937;
-      font-weight: 800;
-      text-align: right;
-      padding-right: 30px;
-    }
-
-
+  .quote p {
+    background: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: -15px;
+  }
+   .author p {
+    background: #E5E7EB;
+    color: #1F2937;
+    font-weight: 800;
+    text-align: right;
+    padding-right: 30px;
+  }
 .sec-four {
   background: #F9FAF8;
   max-width: 1200px;
   margin: auto;
+  padding: 40px 140px 40px 140px;
 }
-
-    .cont1-four {
-      background: #F9FAF8;
-      justify-self: center;
-      align-items: center;
-      padding: 40px 30px 40px 30px;
+  .container-four {
+    background: #3882F6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 70px 40px 70px;
+    border-radius: 8px;
+  }
+    .container-four div {
+      background: #3882F6;
     }
-    
-        .cont2-four {
-          background: #3882F6;
-          display: flex;
-          justify-self: center;
-          align-items: center;
-          padding: 40px 70px 40px 70px;
-          border-radius: 8px;
+      .container-four div .p1 {
+        background: #3882F6;
+        color: #F9FAF8;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: left;
+        margin-bottom: 4px;
         }
-        
-            .text-four {
-              background: #3882F6;
-              padding-right: 230px;
-              color: #F9FAF8;
-            }
-            
-                .p4 {
-                  background: #3882F6;
-                  font-size: 20px;
-                  font-weight: bold;
-                  margin-bottom: 4px;
-                }
-                
-                .p5 {
-                  background: #3882F6;
-                  font-weight: lighter;
-                }
-        
-            .button-four {
-              background: #3882F6;
-              padding: 6px 0px 4px 0px;
-            }
-        
-               .button2 {
-                 background: #3882F6;
-                 padding: 8px 34px 8px 34px;
-                 border-style: solid;
-                 border-width: 3px;
-                 border-color: #F9FAF8;
-                 border-radius: 8px;
-               }
-               
-               
-               .button2 a {
-                 background: #3882F6;
-                 color: #E5E7EB;
-               }
-               
-               .button2:hover, .button2:hover a {
-                 background-color: #73A7F8;
-               }
-
-
+      .container-four div .p2 {
+        background: #3882F6;
+        color: #F9FAF8;
+        font-weight: lighter;
+        margin-right: 100px;
+      }
+      .container-four div .button {
+        background: #3882F6;
+        padding: 6px 3px 10px 3px;
+        border-style: solid;
+        border-width: 3px;
+        border-color: #F9FAF8;
+        border-radius: 8px;
+      }
+        .container-four div .button a {
+          background: #3882F6;
+          color: #E5E7EB;
+          padding: 4px 30px 9px 30px;
+        }
+        .container-four div .button:hover, .container-four div .button:hover a {
+          background-color: #73A7F8;
+        }
 .footer {
   background: #1F2937;
+  color: #F9FAF8;
   max-width: 1200px;
   margin: auto;
+  text-align: center;
+  padding: 40px 38px;
 }
-
-    .foot-text{
-      background: #1F2937;
-      display: flex;
-      color: #F9FAF8;
-      justify-self: center;
-      padding: 10px;
-    }
-    
-        .p6 {
-          background: #1F2937;
-        }  
-
